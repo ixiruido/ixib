@@ -13,50 +13,31 @@
 
 <body>
 <h1><img src="logo.png" alt="IXI LOGO" width="80%"></h1>
-<p style="font-size: 11px;">Artista independiente de Argentina.</p>
+<p style="font-size: 11px;">Proyecto musical de <a href="https://ixi.com.ar" class="l" style="color: rgb(253, 13, 13);">IXI</a>.
+  Artista independiente de Argentina.</p>
+
+<!-- Reproductor de Youtube-->
+<p style="margin-top:10%"><iframe width="80%" height="auto" src="https://www.youtube.com/embed/videoseries?si=kIW0dZ6hg8ec9MzD&amp;list=PLXXt7n8h9ocBOqJIMq5qrJBT-7ywl4n1G&vq=hd1080" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="0"></iframe></p>
+
 
 <a href="https://open.spotify.com/artist/5doXKNecFEUVI3tVZ3wdLP" target="_blank"><img src="spotilogo.svg" alt="Spotify de IXI" width="20%" style="margin-right:16px;filter: invert(85%);"></a>   
 <a href="https://instagram.com/ixi.ahora" target="_blank"><img src="iglogo.svg" alt="Instagram de IXI" width="20%" style="margin-right:15px;filter: invert(85%);"></a>    
 <a href="https://m.youtube.com/@ixiahora" target="_blank"><img src="ytlogo.svg" alt="Youtube de IXI" width="23%" style="margin-top:15px;filter: invert(85%);"></a>
 
-<!-- Reproductor de Youtube-->
-<p style="margin-top:10%"><iframe width="80%" height="auto" src="https://www.youtube.com/embed/videoseries?si=kIW0dZ6hg8ec9MzD&amp;list=PLXXt7n8h9ocBOqJIMq5qrJBT-7ywl4n1G&vq=hd1080" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="0"></iframe></p>
  
 <p><a href="mailto:ixi@ixi.com.ar"><img src="correologo.png" alt="Contacto" width="10%" style="filter: invert(21%);"></a></p>
 
 <h2 style="margin-top:50px"><a href="/bio.html" class="l">INFO</a></h2>
+<p>En Construcción</p> 
 <p>.</p> 
-<p>.</p> 
 
-
-<!-- Slider --> 
-<p><div class="slider">
-  <img id="mainImage" src="A.jpg" alt="Imagen principal"></div><div class="thumbnails">
-  <img src="A.jpg" alt="IXI en vivo" onclick="showImage(0)" class="active">
-  <img src="B.jpg" alt="IXI tocando el bajo en vivo" onclick="showImage(1)">
-</div></p> 
-<!-- Animación Album --> 
-<script> const images = ["A.jpg", "B.jpg",];
-  let current = 0; function showImage(index) {
-    current = index; document.getElementById("mainImage").src = images[index];
-    // Actualiza miniaturas activas
-    document.querySelectorAll(".thumbnails img").forEach((thumb, i) => {
-      thumb.classList.toggle("active", i === index);});}
- // Cambio automático cada 5 segundos
-  setInterval(() => {current = (current + 1) % images.length;
-    showImage(current);}, 5000);</script>   
-
-
-<h2 style="margin-top:50px"><a href="/bio.html" class="l">BIOGRAFÍA</a></h2>
-<p>.</p>
+<img src="A.jpg" alt="IXI Cantando" width="60%">
 
 <!-- Reproductor Spotify -->   
 <p><div style="display:flex; justify-content:center;"><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0I5LGqT8I9OElpPTXJ0NLC?utm_source=generator" width="100%" height=250 frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div></p>
 
 
 <!-- Contenedor de redes -->   
-<h2 style="text-align: center"><a href="/links.html" class="l">LINKS</a></h2>
-
 <a href="https://open.spotify.com/artist/5doXKNecFEUVI3tVZ3wdLP" target="_blank"><img src="spotilogo.svg" alt="Spotify de IXI" width="10%" style="margin-right:11px; filter: invert(85%);"></a>   
 <a href="https://instagram.com/ixi.ruido" target="_blank"><img src="iglogo.svg" alt="Instagram de IXI" width="10%" style="margin-right:10px;filter: invert(85%);"></a>    
 <a href="https://m.youtube.com/@ixiruido" target="_blank"><img src="ytlogo.svg" alt="Youtube de IXI" width="11%" style="margin-top:10px; margin-right:10px;filter: invert(85%);"></a>
