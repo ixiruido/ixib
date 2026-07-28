@@ -33,10 +33,10 @@
 <p><div class="slider">
   <img id="mainImage" src="A.jpg" alt="Imagen principal"></div><div class="thumbnails">
   <img src="A.jpg" alt="IXI en vivo" onclick="showImage(0)" class="active">
-  <img src="B.JPG" alt="IXI tocando el bajo en vivo" onclick="showImage(1)">
+  <img src="B.jpg" alt="IXI tocando el bajo en vivo" onclick="showImage(1)">
 </div></p> 
 <!-- Animación Album --> 
-<script> const images = ["A.jpg", "B.JPG",];
+<script> const images = ["A.jpg", "B.jpg",];
   let current = 0; function showImage(index) {
     current = index; document.getElementById("mainImage").src = images[index];
     // Actualiza miniaturas activas
