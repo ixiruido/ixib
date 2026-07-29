@@ -3,7 +3,9 @@
     background-color: #FFFFFF; /* color inicial */
     animation: respirar 8s infinite alternate;
     color: #111; /* texto visible sobre fondo oscuro */
-    font-family: Arial, sans-serif; text-align: center;}
+    font-family: Arial, sans-serif; text-align: center;
+    padding: 2% 30%;}
+      @media (max-width: 700px){body {padding: 2% 10%;}}
 /* Botones Generales */    
   .botones button {padding: 5px 5px;
       cursor: pointer; border: none;
