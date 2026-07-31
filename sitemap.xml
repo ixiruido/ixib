@@ -4,4 +4,8 @@
     <loc>https://ixib.com.ar/</loc>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://ixib.com.ar/links.html</loc>
+    <priority>0.5</priority>
+  </url>  
 </urlset>
