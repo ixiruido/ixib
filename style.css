@@ -2,7 +2,7 @@
   body {margin: 0; height: 100vh;
     background-color: #FFFFFF; /* color inicial */
     animation: respirar 8s infinite alternate;
-    color: #111; /* texto visible sobre fondo oscuro */
+    color: #ffffff; /* texto visible sobre fondo oscuro */
     font-family: Arial, sans-serif; text-align: center;
     padding: 2% 30%;}
       @media (max-width: 700px){body {padding: 2% 10%;}}
@@ -18,11 +18,11 @@
 
     /* Efecto de fondo respirando */
    @keyframes respirar {
-  0%   { background-color: #d9f890; }
-  25%  { background-color: #F0F0F0; }
-  50%  { background-color: #fffec2; }
-  75%  { background-color: #F0F0F0; }
-  100% { background-color: #d9f890; }}
+  0%   { background-color: #7c8170; }
+  25%  { background-color: #867f7f; }
+  50%  { background-color: #92a8a6; }
+  75%  { background-color: #8d8787; }
+  100% { background-color: #7c836d; }}
 
 /* Configuración para estilo visual de enlaces */
 .l {  color: inherit;          /* mismo color que el texto */
